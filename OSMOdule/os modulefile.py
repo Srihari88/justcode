@@ -34,3 +34,13 @@ print(os.listdir())
 os.rename("sri.txt","srihari.txt")
 
 print(" Rename successfully..!!")
+
+n = int(input())
+mylist = []
+for i in range(n):
+    mylist.append(i)
+print(mylist)
+
+fin=' ' .join()
+print(fin)
+
