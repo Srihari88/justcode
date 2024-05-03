@@ -77,3 +77,36 @@ print(categorize)
 catr=["Even" if i%2==0 else "Odd" for i in range(20)]
 print(catr)
 
+
+# Adding few more examples...
+
+# Example-1: Print numbers from 1 to 2 with multiple of 2
+
+eachtwo=[x*2 for x in range(20) ]
+print(eachtwo)
+
+# Example-2: Write a program to print every second character as a Capital letter
+
+everysecond=[char.upper() for char in "Srihari" ]
+print(everysecond)
+
+# Example-3: Write a program to print every second word should be capital
+
+anyotheroption="srihari naidu pudu kori"
+
+addone=[]
+splitone=anyotheroption.split(' ')
+for wordcount in range(len(splitone)):
+    if wordcount%2!=0:
+        addone.append(splitone[wordcount].upper())
+    else:
+        addone.append(splitone[wordcount])
+
+print(' '.join(addone))
+
+
+# Write the same above program using List Comperhension
+
+
+
+
