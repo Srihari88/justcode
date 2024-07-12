@@ -1,26 +1,27 @@
-# Write a program to print every second word in capital letters
+#Write a program to print every second word in capital letters
 
-# my_string="Hello good morning everyone"
-#
-# addone=[]
-#
-# splitone=my_string.split()
-#
-# for i in range(len(splitone)):
-#     if i%2==0:
-#         addone.append(splitone[i])
-#     else:
-#         addone.append(splitone[i].upper())
-#
-# reveresed_one=' '.join(addone)
-# print(reveresed_one)
+my_string="Hello good morning everyone"
+my_string.swapcase()
+
+addone=[]
+
+splitone=my_string.split()
+
+for i in range(len(splitone)):
+    if i%2==0:
+        addone.append(splitone[i])
+    else:
+        addone.append(splitone[i].upper())
+
+reveresed_one=' '.join(addone)
+print(reveresed_one)
 
 
-# Write the same program using the list Comperhension
+#Write the same program using the list Comperhension
 
-# saveone=[splitone(li).upper() for li in range(len(splitone)) if li%2==0]
-#
-# print(saveone)
+saveone=[splitone(li).upper() for li in range(len(splitone)) if li%2==0]
+
+print(saveone)
 
 
 
@@ -89,4 +90,10 @@ print(sri)
 
 
 
+for i in range(0, 10):
+    print(i)
 
+
+value=[i for i in range(0,10)]
+
+print(value)

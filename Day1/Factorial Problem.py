@@ -8,5 +8,5 @@ def factorial(x):
     else:
         return (x*factorial(x-1))
 
-result=factorial(7)
+result=factorial(0)
 print("Factorial value: ",result)
